@@ -8,6 +8,5 @@
 ## Contents
 * 내용 : HTML, CSS, JavaScript
 * 구성 
-  - html 및 css 파일 : 수업시간 실습 파일
-  - ipynb 파일 : 정리 및 설명 파일
+  - ipynb 파일 : 복습 및 실습 파일
 * 참조 : 3wschools [링크](http://www.w3schools.com/js)
