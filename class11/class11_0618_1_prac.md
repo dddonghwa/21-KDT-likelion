@@ -1,0 +1,54 @@
+## 실습 1. 개봉 예정영화
+`BeautifulSoup`와 `urlopen`을 이용하여 네이버 영화의 개봉 예정영화의 제목을 가져오는 실습입니다.   
+[네이버 영화 링크](https://movie.naver.com/movie/running/premovie.nhn)
+
+- 파일 만들고 구분 단락 하나(최신 섹션)을 선택하여 제목을 가져와보기
+- github commit하기
+
+
+```python
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+
+url = 'https://movie.naver.com/movie/running/premovie.nhn'
+page = urlopen(url)
+soup = BeautifulSoup(page, 'html.parser')
+# print(soup.prettify()) 
+
+# 영화 한개만
+one_soup = soup.find_all("ul",class_="lst_detail_t1")[0]
+one_title = one_soup.find("img").get("alt")
+
+print(one_title)
+```
+
+    2046
+
+
+
+```python
+# 영화 여러개
+
+movies_soup = soup.find_all("div",class_="lst_wrap")
+all_title = []
+
+for i in range(len(movies_soup)):
+    try :
+        movies_1day = movies_soup[i].find_all("img")
+        for movie in movies_1day :
+            all_title.append(movie.get("alt"))
+    except :
+        print(i)
+
+print(all_title)
+print(len(all_title))
+```
+
+    ['2046', '킬러의 보디가드 2', '발신제한', '메이드 인 루프탑', '데이팅 앰버', '흩어진 밤', '뱅퀴시', '식물카페, 온정', '신해석 삼국지', '크레센도', '북샵', '진삼국무쌍', '아사다 가족', '미드나이트', '우리는 매일매일', '괴기맨숀', '다크 앤드 위키드', '더 배니싱', '레일로드 워', '블라이스 스피릿', '빛나는 순간', '열아홉', '웬디', '이보다 더 좋을 순 없다', '인 더 하이츠', '저승보다 낯선', '좀비크러쉬: 헤이리', '체르노빌 1986', '기적', '암살자들', '켈리 갱', '매직아치', '시카다 3301', '아이윌 송', '블랙 위도우', '미션 임파서블: 루벤', '트립 투 그리스', '꽃다발 같은 사랑을 했다', '더 퍼지: 포에버', '오필리아', '이스케이프 룸 2: 노 웨이 아웃', '와인 패밀리', '죽어도 좋은 경험', '극장판 짱구는 못말려: 격돌! 낙서왕국과 얼추 네 명의 용사들', '나는 나대로 혼자서 간다', '나만 보이니', '더 나이트', '랑종', '스페이스 잼: 새로운 시대', '액션히어로', '옥스포드 살인사건', '워스', '은혼 더 파이널', '이번엔 잘 되겠지', '정글 크루즈', '페이블', '이미지 준비중입니다.', '호스트: 접속금지', '베놈 2: 렛 데어 비 카니지', '007 노 타임 투 다이', '웨스트 사이드 스토리', '모비우스', '쥬라기 월드: 도미니언', '미니언즈2']
+    64
+
+
+
+```python
+
+```
