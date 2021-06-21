@@ -8,7 +8,7 @@
 ## Contents
 * 내용 : HTML, CSS, JavaScript
 * 구성 
-  - ipynb 파일 : 복습 및 실습 파일
+  - ipynb 및 md 
 * 참조 : 3wschools [링크](http://www.w3schools.com/js)
 
 ### 폴더 설명
