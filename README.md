@@ -14,5 +14,5 @@
 ### 폴더 설명
 |폴더명|수업일시|내용|세부사항| 실습|
 |----|---|---|---|---|
-|class11|2021.06.18| 웹 데이터 수집  | `selenium` `webdriver` `BeautifulSoup`  | 영화 정보 / 홈페이지의 특정 항목 가져오기   | 
-|class12|2021.06.21| 웹 데이터 수집  | `selenium` `webdriver` `BeautifulSoup`  | 아마존의 상품 리뷰 가져오기   | 
+|class11|2021.06.18| 웹 데이터 수집  | `Selenium` `BeautifulSoup`  | 영화 정보 / 홈페이지의 특정 항목 가져오기   | 
+|class12|2021.06.21| 웹 데이터 수집  | `Selenium` `BeautifulSoup`  | 아마존의 상품 리뷰 가져오기   | 
