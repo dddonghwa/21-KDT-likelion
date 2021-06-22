@@ -8,7 +8,8 @@
 ## Contents
 * 내용 : HTML, CSS, JavaScript
 * 구성 
-  - ipynb 및 md 
+  - html, css, ipynb 파일 : 수업시간 실습 및 정리 파일
+  - md 파일 : 읽기 전용 파일 
 * 참조 : 3wschools [링크](http://www.w3schools.com/js)
 
 ### 폴더 설명
