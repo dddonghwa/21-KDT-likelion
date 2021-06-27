@@ -22,4 +22,4 @@
 |class12|2021.06.21| 웹 데이터 수집  | `Selenium` `BeautifulSoup`  | 아마존의 상품 리뷰 가져오기   | 
 |class13|2021.06.22| 웹 데이터 수집 및 시각화 | `Selenium` `BeautifulSoup` `pandas` `matplotlib` | 코로나 실시간 상황판 데이터로 시각화하기  | 
 |class14|2021.06.23| 데이터 시각화 | `seaborn` `pandas` | tips, flights 데이터 이용해서 시각화하기 | 
-|class15|2021.06.24| 데이터 시각화 | `matplotlib`  | 여러 플롯 그려보기 | 
+|class15|2021.06.24| 데이터 시각화 | `matplotlib`  | 여러 가지 플롯 그려보기 | 
