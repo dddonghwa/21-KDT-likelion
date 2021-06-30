@@ -23,3 +23,5 @@
 |class13|2021.06.22| 웹 데이터 수집 및 시각화 | `Selenium` `BeautifulSoup` `pandas` `matplotlib` | 코로나 실시간 상황판 데이터로 시각화하기  | 
 |class14|2021.06.23| 데이터 시각화 | `seaborn` `pandas` | tips, flights 데이터 이용해서 시각화하기 | 
 |class15|2021.06.24| 데이터 시각화 | `matplotlib`  | 여러 가지 플롯 그려보기 | 
+|class17|2021.06.28| 머신러닝 기초| `sklearn`| *복습 필요* | 
+|class18|2021.06.29| 시각화 | `pandas` `matplotlib` `seaborn` `folium`| 캘리포니아 집값 데이터 시각화하기, 공공데이터 이용하여 지도에 표시해보기 *folium 복습 * | 
