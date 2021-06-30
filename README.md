@@ -28,3 +28,4 @@
 |class15|2021.06.24| 데이터 시각화 | `matplotlib`  | 여러 가지 플롯 그려보기 | 
 |class17|2021.06.28| 머신러닝 기초| `sklearn`| *복습 필요* | 
 |class18|2021.06.29| 시각화 | `pandas` `matplotlib` `seaborn` `folium`| 캘리포니아 집값 데이터 시각화하기, 공공데이터 이용하여 지도에 표시해보기 *folium 복습 * | 
+|class19|2021.06.30| 시각화 | `plotly`||
