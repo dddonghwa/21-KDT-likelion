@@ -4,7 +4,10 @@
 10회차 프로젝트로 익히는 실전 데이터 분석 및 딥러닝 입문
 
 #### PART I. 데이터 수집을 위한 프로그래밍
+- 사용 라이브러리 : selenium, bs4
+
 #### PART II. 데이터 시각화를 위한 프로그래밍
+- 사용 라이브러리 : matplolib, seaborn, pandas, folium
 
 ## Contents
 * 내용 : HTML, CSS, JavaScript
