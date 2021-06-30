@@ -10,7 +10,7 @@
 - 사용 라이브러리 : matplolib, seaborn, pandas, folium
 
 ## Contents
-* 내용 : HTML, CSS, JavaScript
+* 내용 : HTML, JavaScript, 웹 크롤링, 시각화, 머신러닝
 * 구성 
   - html, css, ipynb 파일 : 수업시간 실습 및 정리 파일
   - md 파일 : 읽기 전용 파일 
