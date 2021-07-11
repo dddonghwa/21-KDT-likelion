@@ -7,7 +7,7 @@
 - 사용 라이브러리 : selenium, bs4
 
 #### PART II. 데이터 시각화를 위한 프로그래밍
-- 사용 라이브러리 : matplolib, seaborn, pandas, folium, plotly
+- 사용 라이브러리 : matplolib, seaborn, folium, plotly
 
 ## Contents
 * 내용 : HTML, JavaScript, 웹 크롤링, 시각화, 머신러닝
