@@ -4,17 +4,20 @@
 10회차 프로젝트로 익히는 실전 데이터 분석 및 딥러닝 입문
 
 #### PART I. 데이터 수집을 위한 프로그래밍
-- 사용 라이브러리 : selenium, bs4
-
+- *Tools : selenium, bs4*
 #### PART II. 데이터 시각화를 위한 프로그래밍
-- 사용 라이브러리 : matplolib, seaborn, folium, plotly
+- *Tools : matplolib, seaborn, folium, plotly*
+#### PART III : 머신러닝
+- *Tools : sklearn*
 
+<!--
 ## Contents
 * 내용 : HTML, JavaScript, 웹 크롤링, 시각화, 머신러닝
 * 구성 
   - html, css, ipynb 파일 : 수업시간 실습 및 정리 파일
   - md 파일 : 읽기 전용 파일 
 * 참조 : 3wschools [링크](http://www.w3schools.com/js)
+-->
 
 ### 폴더 설명
 |폴더명|수업일시|내용|세부사항| 실습|
