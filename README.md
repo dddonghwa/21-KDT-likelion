@@ -33,3 +33,6 @@
 |class18|2021.06.29| 시각화 | `pandas` `matplotlib` `seaborn` `folium`| 캘리포니아 집값 데이터 시각화하기, 공공데이터 이용하여 지도에 표시해보기 *folium 복습* | 
 |class19|2021.06.30| 시각화 | `plotly` `plotly express`||
 |class21|2021.07.02| 텍스트 마이닝 | `konlpy`|  |
+|class20|2021.07.01| 텍스트 마이닝 기초 |  `konlpy` | Colab : 나만의 텍스트 데이터를 시각화하기 |
+|class28|2021.07.13| 머신러닝 | `mglearn` `knn`| knn 모델로 Bike Sharing Demand 수요 예측하기 |
+|class31|2021.07.16| 머신러닝 | `RandomForestClassifier` `make_moons` | 유방암 판정 예측하기, 랜덤포레스트 시각화하기  |
